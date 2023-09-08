@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid service p-4 text-dark">
+  <div class="container-fluid service p-5 text-dark">
         <div class="row service-header text-start">
             <div class="col-12">
-                <h2 class="fw-bold my-3">Service We Offer</h2>
+                <h2 class="fw-bold mb-3">Service We Offer</h2>
                 <p>We offer best services with afforedable prices and various adventageslorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit</p>
             </div>
         </div>
@@ -52,15 +52,15 @@ export default {
 
 <style>
 .service{
-    background: gray;
+    background: grey;
 }
 
 .button{
     background-color: #000;
     color: #fff;
     border: none;
-    font-size: 18px;
+    font-size: 15px;
 
-    padding: 10px 50px; 
+    padding: 8px 40px; 
 }
 </style>
