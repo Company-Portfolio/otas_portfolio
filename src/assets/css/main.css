@@ -1,1 +1,208 @@
 /* this is main css for all pages */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.sectionTitle {
+  /* width: 300px; */
+
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+
+.normalText {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.createbtn {
+  width: 180px;
+  height: 35px;
+  background-color: #000;
+
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  box-shadow: none;
+  border: none;
+}
+
+/* .copyContainers {
+  heighpx;
+  /* background-color: red; */
+
+.copyright {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  /* line-height: 12.5; */
+  text-align: center;
+}
+
+.treeContainer {
+  position: relative;
+}
+
+.tree {
+  width: 10px;
+  height: 500px;
+  background-color: #ffffff;
+
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+
+  /* position: relative; */
+}
+
+.leafOne {
+  /* background-color: blue; */
+  display: inline-flex;
+  /* width: 500px; */
+  height: 150px;
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(30px);
+  overflow: hidden;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.leafTwo {
+  /* background-color: yellow; */
+  display: inline-flex;
+  /* width: 500px; */
+  height: 150px;
+
+  position: absolute;
+  top: 15%;
+  right: 50%;
+  transform: translateX(-30px);
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.leafThree {
+  /* background-color: blue; */
+  display: inline-flex;
+  /* width: 500px; */
+  height: 150px;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(30px);
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.leafFour {
+  /* background-color: blue; */
+  display: inline-flex;
+  /* width: 500px; */
+  height: 150px;
+
+  position: absolute;
+  top: 65%;
+  right: 50%;
+  transform: translateX(-30px);
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.branch {
+  width: 80px;
+  height: 10px;
+  background-color: white;
+
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.branchLeft {
+  width: 80px;
+  height: 10px;
+  background-color: white;
+
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+  transform: translateX(130px);
+}
+
+.leaf {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #000;
+
+  display: block;
+  border-radius: 50%;
+  transform: translateX(5px);
+
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.leafLeft {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #000;
+
+  display: block;
+  border-radius: 50%;
+  transform: translateX(125px);
+
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.leafText {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+
+  width: 300px;
+  height: 120px;
+  overflow: hidden;
+
+  transform: translateX(20px);
+}
+
+.left {
+  transform: translateX(125px);
+}
+
+.webs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.webText {
+  font-size: 12px;
+  text-align: center;
+}
