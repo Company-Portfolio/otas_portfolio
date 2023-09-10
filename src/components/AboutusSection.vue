@@ -10,8 +10,8 @@
           <button class="createbtn">Create a Website</button>
         </div>
 
-        <div class="col-6 d-none d-md-block">
-          <div class="bg-black mx-auto col-5 p-3 webs">
+        <div class="col-12 col-md - 6 d-none d-md-block">
+          <div class="bg-black mx-auto col-10 col-lg-7 p-3 webs">
             <img src="../assets/photo/image7.png" alt="" class=""> 
             <div>
               <p class="normalText text-white text-center">WEB DEVELOPMENT</p>

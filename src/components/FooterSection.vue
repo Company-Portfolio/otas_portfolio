@@ -16,7 +16,7 @@
             <div class="col-12 pt-3">
                 <div class="row">
                     <!-- social media -->
-                    <div class="col-12 col-lg-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="">
                             <p class="sectionTitle text-white">Social Medias</p>
                             <div>
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <!-- contact us -->
-                    <div class="col-12 col-lg-6 mt-5 mt-lg-0 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 mt-5 mt-md-0 d-flex justify-content-center">
                         <div>
                             <p class="sectionTitle text-white">Other Contacts</p>
                             <div>

@@ -16,7 +16,7 @@
       </div>
 
 
-      <div class="leafTwo col-10 col-lg-5 d-lg-none">
+      <div class="leafTwo col-10 col-md-7 col-lg-5 d-lg-none">
           <div class="branch"></div>
           <div class="leaf"><span>2</span></div>
           <div class="text-white leafText">
@@ -24,7 +24,7 @@
           </div>
       </div>
 
-      <div class="leafTwo col-5 d-none d-md-flex">
+      <div class="leafTwo col-5 d-none d-lg-flex">
           <div class="text-white leafText left">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis est iusto minus, culpa, molestiae obcaecati incidunt quod, ea enim perspiciatis aspernatur sunt dolores ducimus non doloribus ad nulla necessitatibus architecto.
           </div>
@@ -50,7 +50,7 @@
           </div>
       </div>
 
-      <div class="leafFour col-5 d-none d-md-flex">
+      <div class="leafFour col-5 d-none d-lg-flex">
           <div class="text-white leafText left">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis est iusto minus, culpa, molestiae obcaecati incidunt quod, ea enim perspiciatis aspernatur sunt dolores ducimus non doloribus ad nulla necessitatibus architecto.
           </div>
