@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <!-- <h1 class="text-center text-danger">Service We Offer</h1> -->
-    <OurService></OurService>
-    <SatisfiedClients></SatisfiedClients>
-  </div>
+    <div class="mx-auto">
+      <OurService></OurService>
+      <SatisfiedClients></SatisfiedClients>
+      <AboutusSection></AboutusSection>
+      <BuiltSection></BuiltSection>
+      <FooterSection></FooterSection>
+    </div>
 </template>
 
 <script>
@@ -11,13 +13,15 @@
 
 import SatisfiedClients from '../components/SatisfiedClients'
 import OurService from '../components/OurService'
+import AboutusSection from '@/components/AboutusSection.vue';
+import FooterSection from '@/components/FooterSection.vue';
+import BuiltSection from '@/components/HowWeBuildSection.vue'
 export default {
   components: {
     SatisfiedClients,
     OurService,
-  
-  },
-
+    AboutusSection,FooterSection,BuiltSection
+  }
 }
 </script>
 

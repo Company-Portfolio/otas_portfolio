@@ -1,0 +1,51 @@
+@media (max-width: 900px) {
+  .tree {
+    /* background-color: blue; */
+    height: 600px;
+
+    /* transform: translateX(-200px); */
+
+    transition: 2s;
+  }
+
+  .leafOne {
+    /* background-color: red; */
+    height: 100px;
+
+    top: 5%;
+    transform: translateX(-160px);
+    line-height: 15px;
+  }
+
+  .leafTwo {
+    /* background-color: red; */
+    height: 100px;
+
+    top: 30%;
+    transform: translateX(160px);
+    /* transform: ; */
+    line-height: 15px;
+  }
+
+  .leafThree {
+    /* background-color: red; */
+    height: 100px;
+
+    top: 55%;
+    transform: translateX(-160px);
+    line-height: 15px;
+  }
+
+  .leafFour {
+    /* background-color: red; */
+    height: 100px;
+
+    top: 80%;
+    transform: translateX(160px);
+    /* transform: ; */
+    line-height: 15px;
+  }
+
+  .leafLeft {
+  }
+}
