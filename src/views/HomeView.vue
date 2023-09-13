@@ -1,8 +1,8 @@
 <template>
     <div class="mx-auto">
+      <AboutusSection></AboutusSection>
       <OurService></OurService>
       <SatisfiedClients></SatisfiedClients>
-      <AboutusSection></AboutusSection>
       <BuiltSection></BuiltSection>
       <FooterSection></FooterSection>
     </div>
