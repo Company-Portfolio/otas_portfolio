@@ -1,22 +1,22 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark navs">
     <!-- logo -->
     <!-- <router-link to="/" class="navbar-brand mx-3" href=""><img src="./assets/logo.png" alt="logo" width="70" height="60"></router-link> -->
     <div class="container-fluid">
-      <router-link to="/" class="navbar-brand logoLink">
+      <router-link to="/" class="navbar-brand logoLin px-3">
         <img src="./assets/logo.png" 
-          width="70"
-          height="60"
+          width="100"
+          height="100"
           alt="logo">
       </router-link>
 
       <button
-            class="navbar-toggler menus"
+            class="navbar-toggler border-0 menus"
             data-bs-toggle="collapse"
             data-bs-target="#navbarcollapse"
           >
-            <span class="navbar-toggler-icon bars"
-              ></span>
+              <img src="./assets/photo/ic_round-menu-open.png" alt="navIcon" width="70" height="70">
+           
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarcollapse">
@@ -62,6 +62,7 @@ body {
 .logoLink{
   position: relative;
 }
+
 
 .navbar-toggler:focus {
   box-shadow: none;

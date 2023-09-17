@@ -1,7 +1,7 @@
 <template>
     <div class="mx-auto">
-      <OurService></OurService>
       <AboutusSection></AboutusSection>
+      <OurService></OurService>
       <BuiltSection></BuiltSection>
       <SatisfiedClients></SatisfiedClients>
       <ContactUs></ContactUs>

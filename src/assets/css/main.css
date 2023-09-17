@@ -2,13 +2,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* QucikSand*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400&display=swap");
+
+:root {
+  --bgcolorone: #00173b;
+  --textblue: #003b94;
+  --lightblue: #007fff;
+  --lightbluebg: #75baff;
+}
+
+.navs {
+  background-color: var(--bgcolorone);
+  /* height: 110px; */
+}
 
 .sectionTitle {
   /* width: 300px; */
 
   color: #000;
   font-family: Roboto;
-  font-size: 24px;
+  font-size: 28px;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -18,23 +32,35 @@
 .normalText {
   color: #000;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+}
+
+.blues {
+  color: var(--textblue);
+}
+
+.lightblues {
+  color: var(--lightblue);
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .createbtn {
-  width: 180px;
-  height: 35px;
-  background-color: #000;
+  width: 160px;
+  height: 60px;
+  background: #7bafe3;
 
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  color: var(--lightblue);
+  font-family: "Quicksand", sans-serif;
+  font-size: 23px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: 900;
+  /* line-height: normal; */
 
   box-shadow: none;
   border: none;
+  border-radius: 30px;
+  /* padding: 10px; */
 }
 
 /* .copyContainers {
@@ -44,7 +70,7 @@
 .copyright {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 400;
   /* line-height: 12.5; */
   text-align: center;
@@ -243,4 +269,29 @@
   font-size: 18px;
   font-family: "Lato", sans-serif;
   word-spacing: 0.05em;
+}
+
+.footers {
+  background-color: var(--bgcolorone);
+}
+
+.footertitle {
+  font-family: Roboto;
+  color: white;
+  font-size: 30px;
+}
+
+.footerText {
+  font-size: 20px;
+  color: var(--lightbluebg);
+  padding: 0;
+
+  display: block;
+  padding-bottom: 7px;
+}
+
+.footerlogo {
+  background-color: var(--lightbluebg);
+  padding: 12px;
+  border-radius: 5px;
 }
