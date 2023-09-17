@@ -206,3 +206,41 @@
   font-size: 12px;
   text-align: center;
 }
+
+.contactus-btn{
+  background-color: rgb(75, 184, 235);
+  color: #093773;
+  font-weight: bold;
+  font-size: 18px;
+  
+  width: 250px;
+  height: 50px;
+
+  border-style: none;
+  border-radius: 30px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.textcolor{
+  color: skyblue;
+  border-bottom: 3px solid rgb(48, 50, 161);
+}
+
+.texts{
+  color: rgb(172, 170, 170);
+
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  word-spacing: 0.05em;
+}
+
+.texts1{
+  /* color: rgb(172, 170, 170); */
+  color: #222;
+
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  word-spacing: 0.05em;
+}

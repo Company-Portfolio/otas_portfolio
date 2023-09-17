@@ -1,9 +1,9 @@
 <template>
     <div class="mx-auto">
       <OurService></OurService>
-      <SatisfiedClients></SatisfiedClients>
       <AboutusSection></AboutusSection>
       <BuiltSection></BuiltSection>
+      <SatisfiedClients></SatisfiedClients>
       <ContactUs></ContactUs>
       <FooterSection></FooterSection>
     </div>
