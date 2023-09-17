@@ -2,7 +2,65 @@
   <div class="py-4 px-5">
     <div class="container-fluid ">
         <h1 class="sectionTitle mt-3">How We Built <span class="lightblues">The Product</span></h1>
-        <p class="normalText pt-4">We cooperate with our clients throughout  the whole project building process and we negotiate to fit with our client’s ratification. Vestibulum auctor ornare leo, non suscipit magna Lorem, ipsum dolor sit amet consectetur adipisicing elit.quo voluptates ratione? </p>
+        <p class="normalText pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,</p>
+
+        <div class="">
+            <div class="groupContainers">
+                <div class="imgcontainers">
+                  <img src="../assets/photo/gather.png" alt="gatherInformation" width="100" height="100" class="">
+                </div>
+                <p class="groupheader">Gather Information</p>
+                <div class="">
+                  <p class="normalText px-5 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
+                  </p>
+                </div>
+            </div>
+            <div class="groupContainers">
+                <div class="imgcontainers">
+                  <img src="../assets/photo/design.png" alt="gatherInformation" width="100" height="100" class="">
+                </div>
+                <p class="groupheader">Design</p>
+                <div class="">
+                  <p class="normalText px-5 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
+                  </p>
+                </div>
+            </div>
+            <div class="groupContainers">
+                <div class="imgcontainers">
+                  <img src="../assets/photo/develop.png" alt="gatherInformation" width="100" height="100" class="">
+                </div>
+                <p class="groupheader">Develop</p>
+                <div class="">
+                  <p class="normalText px-5 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
+                  </p>
+                </div>
+            </div>
+            <div class="groupContainers">
+                <div class="imgcontainers">
+                  <img src="../assets/photo/testing.png" alt="gatherInformation" width="100" height="100" class="">
+                </div>
+                <p class="groupheader">testing</p>
+                <div class="">
+                  <p class="normalText px-5 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
+                  </p>
+                </div>
+            </div>
+            <div class="groupContainers">
+                <div class="imgcontainers">
+                  <img src="../assets/photo/transfer.png" alt="gatherInformation" width="100" height="100" class="">
+                </div>
+                <p class="groupheader">Transfer</p>
+                <div class="">
+                  <p class="normalText px-5 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
+                  </p>
+                </div>
+            </div>
+        </div>
     </div>
     
     <!-- <div class="container-fluid treeContainer py-5">

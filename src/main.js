@@ -11,4 +11,6 @@ import "../src/assets/css/main.css";
 //mobile css
 import "../src/assets/css/mobile.css";
 
-createApp(App).use(router).mount("#app");
+import { setupCalendar } from "v-calendar";
+
+createApp(App).use(router).use(setupCalendar, {}).mount("#app");
