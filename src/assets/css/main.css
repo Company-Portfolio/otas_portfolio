@@ -4,12 +4,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 /* QucikSand*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@400&display=swap");
+/* Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 :root {
   --bgcolorone: #00173b;
+  --bgcolortrwo: #16223d;
   --textblue: #003b94;
+  --textgrey: #b4bec8;
+  --textlight: #3c4650;
   --lightblue: #007fff;
   --lightbluebg: #75baff;
+  --lightbluetwo: #7bafe3;
+}
+
+.quicksans {
+  font-family: "Quicksand", sans-serif;
 }
 
 .navs {
@@ -294,4 +304,67 @@
   background-color: var(--lightbluebg);
   padding: 12px;
   border-radius: 5px;
+}
+
+.groupContainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.groupheader {
+  color: var(--textblue);
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+}
+
+.frees {
+  background-color: var(--bgcolortrwo);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.freesheader {
+  color: var(--lightbluebg);
+  font-size: 50px;
+}
+
+.freetext {
+  color: var(--textgrey);
+  font-size: 20px;
+  text-align: center;
+}
+
+.calendertext {
+  color: var(--textlight);
+  font-family: "Lato", sans-serif;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.cleanderBg {
+  background-color: var(--lightbluetwo);
+  border-radius: 20px;
+}
+
+.cleanderBg p {
+  color: var(--textblue);
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.datePicker,
+.vc-title,
+.vc-arrow {
+  background-color: var(--bgcolortrwo);
 }

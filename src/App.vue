@@ -25,7 +25,7 @@
               <router-link to="/" class="mx-2 nav-link">Home</router-link>
             </li>
             <li class="mav-item">
-              <router-link to="/about" class="mx-2 nav-link">About</router-link>
+              <router-link to="/feeconsulting" class="mx-2 nav-link">Freeconsulting</router-link>
             </li>  
         </ul>
       </div>
