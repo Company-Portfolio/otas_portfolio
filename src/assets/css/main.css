@@ -10,12 +10,15 @@
 :root {
   --bgcolorone: #00173b;
   --bgcolortrwo: #16223d;
+  --bgcolorthree: #00347e;
   --textblue: #003b94;
   --textgrey: #b4bec8;
   --textlight: #3c4650;
   --lightblue: #007fff;
   --lightbluebg: #75baff;
   --lightbluetwo: #7bafe3;
+  --formbgcolor: #0a1733;
+  --formtextcolor: #94c9ff;
 }
 
 .quicksans {
@@ -243,12 +246,12 @@
   text-align: center;
 }
 
-.contactus-btn{
+.contactus-btn {
   background-color: rgb(75, 184, 235);
   color: #093773;
   font-weight: bold;
   font-size: 18px;
-  
+
   width: 250px;
   height: 50px;
 
@@ -259,12 +262,12 @@
   align-items: center;
 }
 
-.textcolor{
+.textcolor {
   color: skyblue;
   border-bottom: 3px solid rgb(48, 50, 161);
 }
 
-.texts{
+.texts {
   color: rgb(172, 170, 170);
 
   font-size: 18px;
@@ -272,7 +275,7 @@
   word-spacing: 0.05em;
 }
 
-.texts1{
+.texts1 {
   /* color: rgb(172, 170, 170); */
   color: #222;
 
@@ -352,6 +355,7 @@
 .cleanderBg {
   background-color: var(--lightbluetwo);
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .cleanderBg p {
@@ -366,5 +370,105 @@
 .datePicker,
 .vc-title,
 .vc-arrow {
-  background-color: var(--bgcolortrwo);
+  background-color: var(--bgcolorthree);
+}
+
+.formContainer {
+  background-color: var(--bgcolorthree);
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.formheader {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.formheader span {
+  color: var(--lightbluetwo);
+}
+
+.texts {
+  background-color: var(--formbgcolor);
+  border: none;
+  margin: 30px 0;
+  height: 50px;
+}
+
+.texts::placeholder {
+  color: var(--formtextcolor);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.texts:focus {
+  background-color: var(--formbgcolor);
+  color: var(--formtextcolor);
+}
+
+.radioContainer {
+  background-color: var(--formbgcolor);
+  padding: 20px 15px;
+  border-radius: 7px;
+}
+
+.radioheader {
+  color: var(--formtextcolor);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.form-check-input {
+  background-color: var(--formtextcolor);
+}
+
+.form-check-label {
+  color: #fff;
+  font-family: "Lato";
+}
+
+.textareas {
+  background-color: var(--formbgcolor);
+  padding: 20px 0;
+  border-radius: 7px;
+}
+
+.textareas label {
+  color: var(--formtextcolor);
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 14px;
+}
+.textareas textarea {
+  background-color: var(--formbgcolor);
+  border: none;
+  resize: none;
+}
+
+.textareas textarea::placeholder {
+  color: #bdc6cb;
+  margin: 0;
+  padding: 0;
+}
+
+.textareas textarea:focus {
+  background-color: var(--formbgcolor);
+  color: #bdc6cb;
+  border: none;
+  box-shadow: none;
+}
+
+.buttons {
+  background-color: var(--lightbluetwo);
+  color: var(--lightblue);
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: bold;
+  /* text-shadow: 2px 0 2px var(--formbgcolor); */
+  /* width: 200px; */
 }
