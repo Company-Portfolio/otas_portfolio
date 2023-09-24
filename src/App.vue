@@ -1,12 +1,12 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark navs">
+  <nav class="navbar navbar-expand-md navbar-dark navs">
     <!-- logo -->
     <!-- <router-link to="/" class="navbar-brand mx-3" href=""><img src="./assets/logo.png" alt="logo" width="70" height="60"></router-link> -->
     <div class="container-fluid">
       <router-link to="/" class="navbar-brand logoLin px-3">
         <img src="./assets/logo.png" 
-          width="100"
-          height="100"
+          width="60"
+          height="60"
           alt="logo">
       </router-link>
 
@@ -26,7 +26,13 @@
             </li>
             <li class="mav-item">
               <router-link to="/feeconsulting" class="mx-2 nav-link">Freeconsulting</router-link>
-            </li>  
+            </li>
+            <li class="mav-item">
+              <router-link to="/aboutus" class="mx-2 nav-link">Aboutus</router-link>
+            </li> 
+            <li class="mav-item">
+              <router-link to="/service" class="mx-2 nav-link">Service</router-link>
+            </li> 
         </ul>
       </div>
     </div>   

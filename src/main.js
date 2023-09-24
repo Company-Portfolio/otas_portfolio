@@ -6,10 +6,10 @@ import router from "./router";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
-// main css
-import "../src/assets/css/main.css";
 //mobile css
 import "../src/assets/css/mobile.css";
+// main css
+import "../src/assets/css/main.css";
 
 import { setupCalendar } from "v-calendar";
 
