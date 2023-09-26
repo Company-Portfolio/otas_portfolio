@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Whatis></Whatis>
+  <OurMission></OurMission>
 </template>
+
+<script>
+import Whatis from "../components/WhatisSection.vue"
+import OurMission from "../components/OurmissionSection.vue"
+export default {
+  components:{Whatis,OurMission},
+}
+</script>
+
+<style>
+
+</style>

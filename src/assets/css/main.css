@@ -21,6 +21,8 @@
   --lightbluetwo: #7bafe3;
   --formbgcolor: #0a1733;
   --formtextcolor: #94c9ff;
+  --groupheader: #112a46;
+
   --overpass: "Overpass", sans-serif;
   --lato: "Lato", sans-serif;
 }
@@ -124,7 +126,7 @@
 }
 
 .groupheader {
-  color: var(--textblue);
+  color: var(--groupheader);
   font-size: 20px;
   font-family: var(--lato);
   font-weight: 900;
