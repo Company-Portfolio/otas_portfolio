@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid ps-5 py-4">
-    <div class="mx-auto boxContainers">
+  <div class="container-fluid py-4">
+    <div class="d-none d-md-flex mx-auto boxContainers">
         <div class="group1 d-flex">
           <div class="box1">
            <div class="ourContainers px-3">
@@ -44,6 +44,44 @@
           </div>
         </div>
         
+    </div>
+
+    <div class="d-block d-md-none">
+          <div class="col-10 mx-auto">
+           <div class="ourContainers px-3">
+              <img src="../assets/photo/ourmisions.png" alt="mission" class="missionphoto">
+              <p class="groupheader">Our Mission</p>
+              <p class="text-center pt-3">
+                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available
+              </p>
+           </div>
+          </div>
+          <div class="col-10 mx-auto">
+            <div class="ourContainers px-3">
+                <img src="../assets/photo/ourvission.png" alt="mission" class="missionphoto">
+                <p class="groupheader">Our Vission</p>
+                <p class="text-center pt-3">
+                  In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available
+                </p>
+            </div>
+          </div>
+          <div class="col-10 mx-auto">
+            <div class="ourContainers px-3">
+                <img src="../assets/photo/ourvalue.png" alt="value" class="missionphoto">
+                <p class="groupheader">Our Value</p>
+                <p class="text-center pt-3">
+                  In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available
+                </p>
+            </div>
+          </div>
+          <div class="col-10 mx-auto">
+              <ul class="mt-5">
+                <li><p>We Pirioty our client bussiness</p></li>
+                <li><p>We Ensure that our solution is huge stepstone to your bussiness</p></li>
+                <li><p>We always have a solution to any problems</p></li>
+                <li><p>We Ensure that our solution is huge stepstone to your bussiness</p></li>
+              </ul>
+          </div>
     </div>
   </div>
 </template>
