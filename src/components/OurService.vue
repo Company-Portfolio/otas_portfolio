@@ -2,7 +2,7 @@
     <div class="container-fluid service p-5">
         <div class="row service-header text-start">
             <div class="col-12">
-                <h2 class=" mb-3"><span class="blues">Services</span><span class="font_color"> We Offer</span></h2>
+                <h2 class=" mb-3"><span class="lightblues">Services</span><span class="font_color"> We Offer</span></h2>
                 <p class="font_color">We offer best services with afforedable prices and various adventageslorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,</p>
             </div>
         </div>

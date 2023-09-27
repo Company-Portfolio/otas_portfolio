@@ -2,45 +2,11 @@
   <div class="container-fluid clients p-5">
       <div class="row clients-header text-start">
           <div class="col-12">
-            <h2 class="fw-bold text-light mb-3">Our Satisfied <span class="textcolor">Clients</span></h2>
-            <p class="texts">We cooperate with our clients throughout the whole project building process and we negotiate to fit with our client's ratification. Vestibulum auctor ornare leo, non suscipit magna</p>
+            <h2 class="mb-3"><span class="sectionTitle ">Our Satisfied</span> <span class="lightblues">Clients</span></h2>
+            <p class="normalText">We cooperate with our clients throughout the whole project building process and we negotiate to fit with our client's ratification. Vestibulum auctor ornare leo, non suscipit magna</p>
           </div>
       </div>
 
-      <!-- <div class="row clients-images text-start mt-4">
-          <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-              <div class="pt-4 pb-2">
-                  <img src="../assets/imgs/cropout-sample.avif" class="logo-image bg-secondary-subtle rounded py-3 px-3" alt="web dev">
-              </div>
-              <p class="fw-bold fs-5">Realtime Image Cropout</p>
-              <p class="normalText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              <button class="createbtn">View Project</button>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-              <div class="pt-4 pb-2">
-                  <img src="../assets/imgs/cropout-sample.avif" class="logo-image bg-secondary-subtle rounded py-3 px-3" alt="app dev">
-              </div>
-              <p class="fw-bold fs-5">Realtime Image Cropout</p>
-              <p class="normalText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              <button class="createbtn">View Project</button>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-              <div class="pt-4 pb-2">
-                  <img src="../assets/imgs/cropout-sample.avif" class="logo-image bg-secondary-subtle rounded py-3 px-3" alt="maintain">
-              </div>
-              <p class="fw-bold fs-5">Realtime Image Cropout</p>
-              <p class="normalText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              <button class="createbtn">View Project</button>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-              <div class="pt-4 pb-2">
-                  <img src="../assets/imgs/cropout-sample.avif" class="logo-image bg-secondary-subtle rounded py-3 px-3" alt="marketing">
-              </div>
-              <p class="fw-bold fs-5">Realtime Image Cropout</p>
-              <p class="normalText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              <button class="createbtn">View Project</button>
-          </div>
-      </div> -->
 
       <div class="clients-logos mt-3">
           <div class="d-flex justify-content-between">
@@ -62,7 +28,7 @@ export default {
 
 <style>
 .clients{
-    background: #00264D;
+    background: #fff;
     color: #f9f9f9;
     font-weight: 500;
     font-family: "Lato", sans-serif;
