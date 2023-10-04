@@ -30,8 +30,8 @@ export default {
 .clients{
     background: #fff;
     color: #f9f9f9;
-    font-weight: 500;
-    font-family: "Lato", sans-serif;
+    /* font-weight: 500;
+    font-family: "Lato", sans-serif; */
     font-size: 16px;
 
     padding: 0;

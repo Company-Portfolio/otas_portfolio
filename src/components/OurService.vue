@@ -2,47 +2,47 @@
     <div class="container-fluid service p-5">
         <div class="row service-header text-start">
             <div class="col-12">
-                <h2 class=" mb-3"><span class="lightblues">Services</span><span class="font_color"> We Offer</span></h2>
-                <p class="font_color">We offer best services with afforedable prices and various adventageslorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,</p>
+                <h6 class=" mb-3"><span class="lightblues">Services</span><span class="sectionTitle"> We Offer</span></h6>
+                <p class="normalText">We cooperate with our clients throughout the whole project building process and we negotiate to fit with our client's ratification. Vestibulum auctor ornare leo, non suscipit magna</p>
             </div>
         </div>
         
         <div class="row service-body p-5">
             
-           <div class="mx-auto col-sm-12 col-md-6 col-lg-3 my-2">
+           <div class="mx-auto col-sm-12 col-md-6 col-lg-4">
                 <div class="cards">
-                    <div class="card-img-top py-2">
-                        <img src="../assets/imgs/consulting.jpg" class="service-img rounded" style="width: 100%; height: 200px;" alt="web dev">
+                    <div class="iconBox">
+                        <!-- <img src="../assets/imgs/consulting.jpg" class="service-img rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
                     </div>
                     <div class="card-body ">
-                        <h4 class="card-title fw-bold">Free Consulting</h4>
-                        <p class="card-text">We provide best web development with our latest technology in the field lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.</p>
+                        <h4 class="card-title ">Free Consulting</h4>
+                        <p class="card-text">Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images.</p>
                     </div>
                 </div>
                 
            </div>
            
-            <div class="mx-auto col-sm-12 col-md-6 col-lg-3 my-2">
+            <div class="mx-auto col-sm-12 col-md-6 col-lg-4">
                 <div class="cards">
-                    <div class="card-img-top py-2">
-                        <img src="../assets/imgs/app-dev.png" class="rounded" style="width: 100%; height: 200px;" alt="web dev">
+                    <div class="iconBox">
+                        <!-- <img src="../assets/imgs/app-dev.png" class="rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
                     </div>
                     <div class="card-body ">
-                        <h4 class="card-title fw-bold">App Development</h4>
-                        <p class="card-text">We provide best web development with our latest technology in the field lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.</p>
+                        <h4 class="card-title ">App Development</h4>
+                        <p class="card-text">Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images..</p>
                     </div>
                 </div>
                 
             </div>
             
-            <div class="mx-auto col-sm-12 col-md-6 col-lg-3 my-2">
+            <div class="mx-auto col-sm-12 col-md-6 col-lg-4">
                 <div class="cards">
-                    <div class="card-img-top py-2">
-                        <img src="../assets/imgs/web-dev.jpg" class="rounded" style="width: 100%; height: 200px;" alt="web dev">
+                    <div class="iconBox">
+                        <!-- <img src="../assets/imgs/web-dev.jpg" class="rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title fw-bold">Web Development</h4>
-                        <p class="card-text">We provide best web development with our latest technology in the field lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.</p>
+                        <h4 class="card-title ">Web Development</h4>
+                        <p class="card-text">Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images.</p>
                     </div>
                 </div>
             </div>
@@ -52,18 +52,23 @@
 </template>
 
 <script>
-export default {
+    import { ref } from 'vue';
 
+export default {
+    setup(){
+        const companyName = ref('');
+        const phoneNumber = ref('');
+
+        return{
+            companyName,
+            phoneNumber
+        }
+    }
 }
 </script>
 
 <style>
 .service{
-    /* color: #f9f9f9; */
-    /* font-weight: 400; */
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-
     padding: 0;
     margin: 0;
 }
@@ -78,24 +83,39 @@ export default {
 }
 
 .cards{
+    width: 400px;
+    height: 500px;
     background: var(--linear1);
-    padding: 1.2rem;
+    padding: 1.5rem;
+    /* margin-top: 3rem; */
     /* margin-bottom: 1rem; */
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card-title{
-    /* margin-bottom: 1rem; */
+    font-family: 'Spline Sans';
+    font-weight: 500;
+    font-size: 28px;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .card-text{
-    color: var(--groupheader);
+    color: #3c4650;
     margin-top: 1rem;
 
-    font-size: 16px;
-    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    font-family: "Outfit";
     word-spacing: 0.05em;
+}
+
+.iconBox{
+    /* padding-top: 300px; */
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
 }
 
 .card-box{

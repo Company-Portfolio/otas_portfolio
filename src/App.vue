@@ -31,7 +31,7 @@
               <router-link to="/aboutus" class="mx-2 nav-link">Aboutus</router-link>
             </li> 
             <li class="mav-item">
-              <router-link to="/service" class="mx-2 nav-link">Service</router-link>
+              <router-link to="/services" class="mx-2 nav-link">Service</router-link>
             </li> 
         </ul>
       </div>

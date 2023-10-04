@@ -8,6 +8,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 /*Overpass*/
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap");
+/* Outfit font  */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+/* Spline Sans font  */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Spline+Sans:wght@300&display=swap');
 
 :root {
   --bgcolorone: #00173b;
@@ -28,7 +32,7 @@
 }
 
 .quicksans {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif, 'Outfit' ;
 }
 
 .navs {
@@ -38,10 +42,11 @@
 
 /* Start Hero Banner Section */
 .sectionTitle {
-  color: #000;
+  color: var(--groupheader);
   font-family: var(--lato);
-  font-size: 30px;
-  font-style: normal;
+  font-size: 48px;
+  font-weight: thin;
+  /* font-style: normal; */
   line-height: normal;
   letter-spacing: 0.05em;
 }
@@ -54,8 +59,8 @@
 
 .normalText {
   color: #3c4650;
-  font-family: var(--overpass);
-  font-size: 20px;
+  font-family: var(--outfit);
+  font-size: 24px;
 }
 
 .webs {
@@ -102,13 +107,15 @@
 /* Start How We Build Section */
 .lightblues {
   color: var(--lightblue);
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .copyright {
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-family: "Quicksand",'Outline',"Roboto";
   font-size: 15px;
-  font-weight: 400;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -242,6 +249,30 @@
 
 /* End How We Build The Section */
 
+/* Start Create Solution with Us Section  */
+
+.submitBtn{
+  padding: 5px 80px !important;
+  margin:auto !important;
+  background: var(--linear1);
+
+  font-family: 'Outfit';
+  font-size: 18px;
+  color: #fff;
+
+
+}
+
+/* End Create Solution with Us Section  */
+
+
+
+.callToActionBtn{
+  font-weight: bold;
+  font-family: 'Outfit';
+
+}
+
 .contactus-btn {
   background-color: rgb(75, 184, 235);
   color: #093773;
@@ -282,27 +313,38 @@
 
 /* :start footer section css */
 .footers {
-  background-color: var(--bgcolorone);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+rgba(88,227,255,1) 100%);
+color: #000;
 }
 
 .footertitle {
-  font-family: Roboto;
-  color: white;
+  font-family: 'Outline',Roboto;
+  color: var(--textlight);
   font-size: 23px;
 }
 
+.footerAboutus{
+  color: var(--textlight);
+  font-family: 'Outline';
+  font-size: 24px;
+  margin-left: 30px;
+}
+
 .footerText {
-  font-size: 15px;
-  color: var(--lightbluebg);
+  font-size: 16px;
+  color: var(--textlight);
   padding: 0;
 
   display: block;
   padding-bottom: 7px;
+  font-weight: bold;
 }
 
 .footerlogo {
   width: 60px;
   height: 60px;
+  border-radius: 50%;
 }
 
 .frees {
