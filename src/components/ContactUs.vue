@@ -28,48 +28,24 @@
             
             </div>
             <!-- Form  -->
-            <div class="col-lg-6 col-sm-12 mt-3">
-                <form class="col-8 text-center">
-                    <div class="form-floating">
-                        <input class="form-control mb-3" type="text" placeholder="Company Name" aria-label="default input example" v-model="formData.companyName">
-                        <label for="floatingInput">Company Name</label>
+            <div class="col-lg-6 col-sm-12 text-align-justify">
+                        <!-- Company Name  -->
+                    <div class="form-group ">
+                        <input type="text" required="required" v-model="formData.name" />
+                        <label for="input" class="control-label">Company Name</label><i class="bar"></i>
                     </div>
-                   
-                    <div class="form-floating">
-                        <input class="form-control mb-3" type="text" placeholder="Phone Number" aria-label="default input example" v-model="formData.phoneNumber">
-                        <label for="floatingInput">Phone Number</label>
+                    <!-- Company Phone Number  -->
+                    <div class="form-group">
+                        <input type="text" required="required" v-model="formData.phone" />
+                        <label for="input" class="control-label">Phone Number</label><i class="bar"></i>
                     </div>
-
-                    <div class="form-control mb-3 text-start">
-                        <label class="form-label">Project Category</label>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
-                                <label class="form-check-label text-dark radioLabels" for="flexRadioDefault3">
-                                    Consulting
-                                </label>
-                            </div>
-                       
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label text-dark radioLabels" for="flexRadioDefault1">
-                                    App Development
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                                <label class="form-check-label text-dark radioLabels" for="flexRadioDefault2">
-                                    Web Development
-                                </label>
-                            </div>
+                    <!-- Description  -->
+                    <div class="form-group">
+                        <textarea type="text" required="required" v-model="formData.desc" ></textarea>
+                        <label for="input" class="control-label">Description</label><i class="bar"></i>
                     </div>
-
-                    <div class="form-floating">
-                        <textarea class="form-control mb-3" type="text" placeholder="Project Description" aria-label="default input example" style="height: 100px"></textarea>
-                        <label for="floatingInput">Project Description</label>
-                    </div>
-
-                    <button type="button" class=" btn submitBtn" @click="sendData">Send Your Form</button>
-                </form>
+                    <button class="btn btn-primary" @click="sendData">Send Data</button>
+        
             </div>
         </div>
    </div>
@@ -77,28 +53,29 @@
 
 <script>
     import { ref } from 'vue';
-    // import {db} from '../firebase/firestoreconfig';
-    import {db} from '@/firebase/firestoreconfig.js';
-export default {
-    setup(){
-        const formData = ref(
-            {
-                companyName: '',
-                phoneNumber: '',
-
-            }
-        )
-        const sendData = async () =>{
+    import { collection, addDoc } from 'firebase/firestore';
+    import db from '../database/init';
+    export default{
+        components:{},
+        setup(){
+        const formData = ref({
+            name: '',
+            phone: '',
+            desc: ''
+        });
+           
+        let sendData = async() =>{
             try{
-                await db.collection('Client-resquest').add(formData.value);
+                await addDoc(collection(db,'client'), formData.value);
+                console.log('There is docRef=>');
             }catch(err){
-                console.log(err.message);
+                console.log("Error Message -",err);
             }
-            console.log("Send Data", formData.value);
         }
+       
+
         return{
-           formData,
-            sendData
+            sendData,formData
         }
     }
 }
@@ -110,5 +87,71 @@ export default {
         border-radius: 25px !important;
     }
 
- 
+    /* Style for the form group container */
+.form-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+/* Style for the input field */
+.form-group input, .form-group textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 5px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-bottom-color 0.3s ease;
+}
+
+/* Style for the label */
+.form-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  font-size: 20px;
+  font-family: 'Spline San';
+  padding: 10px;
+  transition: top 0.3s ease, font-size 0.3s ease;
+}
+
+/* Style for the bar under the input */
+.form-group .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+  &::before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #007bff; 
+    transition: width 0.3s ease;
+  }
+}
+
+/* Style for the input when it's in focus */
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+  border-bottom-color: #007bff; /* Change this to your desired highlight color */
+}
+
+/* Style for the label when the input has focus or contains text */
+.form-group input:focus + label,
+.form-group input:valid + label,
+.form-group textarea:focus + label,
+.form-group textarea:valid + label {
+  top: -20px;
+  font-size: 16px;
+  color: #007bff; /* Change this to your desired highlight color */
+}
+
+/* Style for the bar under the input when it's in focus */
+.form-group input:focus + .bar::before,
+.form-group textarea:focus + .bar::before {
+  width: 100%;
+}
+
+
 </style>
