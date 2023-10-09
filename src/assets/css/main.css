@@ -36,7 +36,8 @@
 }
 
 .navs {
-  background-color: var(--bgcolorone);
+  background: linear-gradient(360deg, rgba(255,255,255,1) 0%, 
+  rgba(88,227,255,1) 100%);;
   /* height: 110px; */
 }
 
@@ -44,7 +45,7 @@
 .sectionTitle {
   color: var(--groupheader);
   font-family: var(--lato);
-  font-size: 48px;
+  font-size: 36px;
   font-weight: thin;
   /* font-style: normal; */
   line-height: normal;
@@ -107,7 +108,7 @@
 /* Start How We Build Section */
 .lightblues {
   color: var(--lightblue);
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -266,6 +267,11 @@
 /* End Create Solution with Us Section  */
 
 
+/* Start Contact Us section  */
+
+/* End Contact Us section  */
+
+
 
 .callToActionBtn{
   font-weight: bold;
@@ -339,6 +345,8 @@ color: #000;
   display: block;
   padding-bottom: 7px;
   font-weight: bold;
+
+  cursor: pointer;
 }
 
 .footerlogo {

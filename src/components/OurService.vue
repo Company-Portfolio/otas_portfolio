@@ -83,8 +83,8 @@ export default {
 }
 
 .cards{
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
     background: var(--linear1);
     padding: 1.5rem;
     /* margin-top: 3rem; */
@@ -95,7 +95,7 @@ export default {
 .card-title{
     font-family: 'Spline Sans';
     font-weight: 500;
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 1rem;
     text-align: center;
 }
@@ -104,7 +104,7 @@ export default {
     color: #3c4650;
     margin-top: 1rem;
 
-    font-size: 22px;
+    font-size: 18px;
     font-family: "Outfit";
     word-spacing: 0.05em;
 }
@@ -112,8 +112,8 @@ export default {
 .iconBox{
     /* padding-top: 300px; */
     margin: auto;
-    width: 300px;
-    height: 200px;
+    width: 220px;
+    height: 150px;
     background-color: #D9D9D9;
     border-radius: 20px;
 }

@@ -4,7 +4,7 @@
     <!-- <router-link to="/" class="navbar-brand mx-3" href=""><img src="./assets/logo.png" alt="logo" width="70" height="60"></router-link> -->
     <div class="container-fluid">
       <router-link to="/" class="navbar-brand logoLin px-3">
-        <img src="./assets/logo.png" 
+        <img src="./assets/OTASLogoblack.png" 
           width="60"
           height="60"
           alt="logo">
@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarcollapse">
         <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link to="/" class="mx-2 nav-link">Home</router-link>
+              <router-link to="/" class="mx-2 nav-link text-dark">Home</router-link>
             </li>
             <li class="mav-item">
-              <router-link to="/feeconsulting" class="mx-2 nav-link">Freeconsulting</router-link>
+              <router-link to="/feeconsulting" class="mx-2 nav-link text-dark">Freeconsulting</router-link>
             </li>
             <li class="mav-item">
-              <router-link to="/aboutus" class="mx-2 nav-link">Aboutus</router-link>
+              <router-link to="/aboutus" class="mx-2 nav-link text-dark">Aboutus</router-link>
             </li> 
             <li class="mav-item">
-              <router-link to="/services" class="mx-2 nav-link">Service</router-link>
+              <router-link to="/services" class="mx-2 nav-link text-dark">Service</router-link>
             </li> 
         </ul>
       </div>
@@ -89,7 +89,7 @@ body {
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
-  color: rgba(252, 252, 252, 1);
+  color: #000;
   transition: 0.5s;
 }
 

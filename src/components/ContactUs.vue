@@ -28,7 +28,7 @@
             
             </div>
             <!-- Form  -->
-            <div class="col-lg-6 col-sm-12 text-align-justify">
+            <div class="col-lg-6 col-sm-12 text-align-justify mx-auto">
                         <!-- Company Name  -->
                     <div class="form-group ">
                         <input type="text" required="required" v-model="formData.name" />
@@ -44,7 +44,9 @@
                         <textarea type="text" required="required" v-model="formData.desc" ></textarea>
                         <label for="input" class="control-label">Description</label><i class="bar"></i>
                     </div>
-                    <button class="btn btn-primary" @click="sendData">Send Data</button>
+                    <div class="btnContainer">
+                        <button class="sendInquory" @click="sendData">Send Your Form</button>
+                    </div>
         
             </div>
         </div>
@@ -83,58 +85,58 @@
 
 <style>
 
-    .phoneBtn, .submitBtn{
-        border-radius: 25px !important;
-    }
+.phoneBtn, .submitBtn{
+  border-radius: 25px !important;
+}
 
-    /* Style for the form group container */
+/* Style for the form group container */
 .form-group {
-  position: relative;
-  margin: 20px 0;
+position: relative;
+margin: 20px 0;
 }
 
 /* Style for the input field */
 .form-group input, .form-group textarea {
-  width: 100%;
-  border: none;
-  border-bottom: 5px solid #ccc;
-  padding: 10px;
-  font-size: 16px;
-  transition: border-bottom-color 0.3s ease;
+width: 100%;
+border: none;
+border-bottom: 5px solid #ccc;
+padding: 10px;
+font-size: 16px;
+transition: border-bottom-color 0.3s ease;
 }
 
 /* Style for the label */
 .form-group label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  font-size: 20px;
-  font-family: 'Spline San';
-  padding: 10px;
-  transition: top 0.3s ease, font-size 0.3s ease;
+position: absolute;
+top: 0;
+left: 0;
+pointer-events: none;
+font-size: 20px;
+font-family: 'Spline San';
+padding: 10px;
+transition: top 0.3s ease, font-size 0.3s ease;
 }
 
 /* Style for the bar under the input */
 .form-group .bar {
-  position: relative;
-  display: block;
-  width: 100%;
-  &::before {
-    content: '';
-    height: 2px;
-    width: 0;
-    bottom: 0;
-    position: absolute;
-    background: #007bff; 
-    transition: width 0.3s ease;
-  }
+position: relative;
+display: block;
+width: 100%;
+&::before {
+content: '';
+height: 2px;
+width: 0;
+bottom: 0;
+position: absolute;
+background: #007bff; 
+transition: width 0.3s ease;
+}
 }
 
 /* Style for the input when it's in focus */
 .form-group input:focus, .form-group textarea:focus {
-  outline: none;
-  border-bottom-color: #007bff; /* Change this to your desired highlight color */
+outline: none;
+border-bottom-color: #007bff; /* Change this to your desired highlight color */
 }
 
 /* Style for the label when the input has focus or contains text */
@@ -142,15 +144,33 @@
 .form-group input:valid + label,
 .form-group textarea:focus + label,
 .form-group textarea:valid + label {
-  top: -20px;
-  font-size: 16px;
-  color: #007bff; /* Change this to your desired highlight color */
+top: -20px;
+font-size: 16px;
+color: #007bff; /* Change this to your desired highlight color */
 }
 
 /* Style for the bar under the input when it's in focus */
 .form-group input:focus + .bar::before,
 .form-group textarea:focus + .bar::before {
-  width: 100%;
+width: 100%;
+}
+
+.btnContainer{
+margin-top: 2rem;
+display: flex;
+justify-content: center;
+}
+
+.sendInquory{
+color: #fff;
+font-family: 'Outline';
+font-weight: 400;
+font-size: 20px;
+width: 300px;
+border: none;
+border-radius: 20px;
+padding: 10px;
+background: var(--linear1);
 }
 
 
