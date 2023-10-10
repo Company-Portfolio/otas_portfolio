@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="mt-5 box4">
-              <ul class="mt-5">
+              <ul class="mt-5 custom-list">
                 <li><p>We Pirioty our client bussiness</p></li>
                 <li><p>We Ensure that our solution is huge stepstone to your bussiness</p></li>
                 <li><p>We always have a solution to any problems</p></li>
@@ -75,7 +75,7 @@
             </div>
           </div>
           <div class="col-10 mx-auto">
-              <ul class="mt-5">
+              <ul class="mt-5 custom-list">
                 <li><p>We Pirioty our client bussiness</p></li>
                 <li><p>We Ensure that our solution is huge stepstone to your bussiness</p></li>
                 <li><p>We always have a solution to any problems</p></li>
@@ -145,6 +145,27 @@ export default {
     top: 35px;
     left: 108px;
   }
+
+  .custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+.custom-list li {
+    position: relative;
+    padding-left: 40px;
+}
+.custom-list li:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url('../assets/photo/diamond.png');
+    background-size: cover;
+    background-position: top;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
   @media (max-width:1160px) {
     .boxContainers{
