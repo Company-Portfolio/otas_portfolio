@@ -11,13 +11,13 @@
             <div class="col-lg-6 col-sm-12 text-align-justify ps-5 pe-5 mt-3">
                 <p class="lh-lg normalText">If you have specific details about your ideas, I would recommend you to contact us via the contact us form below. We will follow up within a short time ..</p>
                 
-                <div>
+                <div class="mt-4">
                     <div class="mb-4">
-                        <h6 class="callToActionBtn mb-2">Call Us</h6>
+                        <h6 class="callToActionBtn ">Call Us</h6>
                         <button class="btn btn-rounded btn-primary phoneBtn">09951207795</button>
                     </div>                 
                     <div>
-                        <h6 class="callToActionBtn mb-2">Follow Us For More</h6>
+                        <h6 class="callToActionBtn ">Follow Us For More</h6>
                         <div>
                             <img src="../assets/photo/linkedin.png" class="footerlogo" alt="facebook" >
                             <img src="../assets/photo/github.png" alt="linkedin" class="footerlogo mx-3">

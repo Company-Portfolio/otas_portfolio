@@ -1,9 +1,9 @@
 <template>
   <div class="py-4">
     <div class="container-fluid">
-      <div class=" ps-5">
-        <h1 class="sectionTitle mt-3">How We Built <span class="lightblues">The Product</span></h1>
-        <p class="normalText pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,</p>  
+      <div class="">
+        <h1 class="sectionTitle ">How We Built <span class="lightblues">The Product</span></h1>
+        <p class="normalText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,</p>  
       </div>
         
         <div class="mx-auto pt-3  treeContainer larges">

@@ -38,11 +38,21 @@
 .navs {
   background: linear-gradient(360deg, rgba(255,255,255,1) 0%, 
   rgba(88,227,255,1) 100%);;
-  /* height: 110px; */
+  height: 110px;
+}
+
+.navbarTitle{
+  font-size: 1.3rem;
+  /* margin-left: 1rem; */
+}
+
+.aboutusContainer{
+  margin: 4rem 1rem;
 }
 
 /* Start Hero Banner Section */
 .sectionTitle {
+  margin: 2rem 0rem;
   color: var(--groupheader);
   font-family: var(--lato);
   font-size: 36px;
@@ -61,7 +71,10 @@
 .normalText {
   color: #3c4650;
   font-family: var(--outfit);
-  font-size: 24px;
+  font-size: 18px;
+
+  text-align: justify;
+  margin-bottom: 1rem;
 }
 
 .webs {
@@ -71,16 +84,15 @@
 }
 
 .createbtn {
-  /* width: 160px;
-  height: 60px; */
+  margin: 2rem 0rem;
+  padding: 1rem 2rem;
   background: var(--linear1);
 
   color: #fff;
   font-family: "Quicksand", sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 900;
-  /* line-height: normal; */
 
   box-shadow: none;
   border: none;
@@ -138,17 +150,18 @@
   font-size: 20px;
   font-family: var(--lato);
   font-weight: 900;
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .grouptext {
-  text-align: center;
-  font-size: 12px;
+  text-align: justify;
+  font-size: 15px;
 }
 
 .larges {
   display: flex;
+  font-size: 1rem;
 }
 
 .middles {
@@ -274,8 +287,11 @@
 
 
 .callToActionBtn{
+  font-size: 1.2rem;
   font-weight: bold;
   font-family: 'Outfit';
+
+  margin-bottom: 1rem;
 
 }
 
@@ -353,6 +369,7 @@ color: #000;
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .frees {

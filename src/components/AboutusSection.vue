@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="container-fluid px-5 py-4">
+    <div class="container-fluid aboutusContainer">
        <div class="row">
         <div class="col-12 col-md-6">
           <h1 class="sectionTitle mt-3">We Create <span class="blues">Digital Product</span> For Your <span class="blues">Bussiness</span></h1>
 
           <p class="normalText pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, animi quo ullam molestiae laboriosam accusantium harum sint ea excepturi. Dolor, maxime ipsa tempore rerum obcaecati consectetur veritatis. Explicabo, in beatae!</p>
 
-          <button class="createbtn py-2 px-5">Contact Us</button>
+          <button class="createbtn">Contact Us</button>
         </div>
 
         <div class="col-12 col-md-6 d-none d-md-block">
