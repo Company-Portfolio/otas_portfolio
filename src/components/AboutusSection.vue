@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid aboutusContainer">
+    <div class="container-fluid">
        <div class="row">
         <div class="col-12 col-md-6">
           <h1 class="sectionTitle mt-3">We Create <span class="blues">Digital Product</span> For Your <span class="blues">Bussiness</span></h1>

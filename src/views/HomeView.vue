@@ -5,7 +5,6 @@
       <BuiltSection class="ourServices" id="selection3"></BuiltSection>
       <SatisfiedClients class="ourServices" id="selection4"></SatisfiedClients>
       <ContactUs class="ourServices" id="selection5"></ContactUs>
-      
     </div>
     <FooterSection></FooterSection>
 </template>
@@ -25,14 +24,16 @@ export default {
     ContactUs,
     SatisfiedClients,
     OurService,
-    AboutusSection,FooterSection,BuiltSection
+    AboutusSection,
+    FooterSection,
+    BuiltSection
   }
 }
 </script>
 
 <style>
 .wholeContainer{
-  width: 80%;
+  width: 90%;
 }
   .ourServices{
     /* height: 100vh; */

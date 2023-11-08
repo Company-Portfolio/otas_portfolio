@@ -1,14 +1,14 @@
 <template>
    <div class="container-fluid col-12 mb-5">
     <!-- Section Title      -->
-        <div class="ps-5">
-            <h2 class="sectionTitle mt-3">Create <span class="lightblues">Solutions</span><span class="ms-2 sectionTitle">With Us</span></h2>
+        <div class="">
+            <h2 class="sectionTitle mt-3">Create <span class="lightblues">Solutions</span><span class="sectionTitle">With Us</span></h2>
         </div>
     
     <!-- Section Body  -->
         <div class="col-12 row">
             <!-- Text  -->
-            <div class="col-lg-6 col-sm-12 text-align-justify ps-5 pe-5 mt-3">
+            <div class="col-lg-6 col-sm-12 text-align-justify mt-3">
                 <p class="lh-lg normalText">If you have specific details about your ideas, I would recommend you to contact us via the contact us form below. We will follow up within a short time ..</p>
                 
                 <div class="mt-4">
@@ -20,7 +20,7 @@
                         <h6 class="callToActionBtn ">Follow Us For More</h6>
                         <div>
                             <img src="../assets/photo/linkedin.png" class="footerlogo" alt="facebook" >
-                            <img src="../assets/photo/github.png" alt="linkedin" class="footerlogo mx-3">
+                            <img src="../assets/photo/github.png" alt="linkedin" class="footerlogo mx-1 mx-md-3">
                             <img src="../assets/photo/facebook.png" alt="github" class="footerlogo">
                         </div>
                     </div>   
@@ -28,7 +28,7 @@
             
             </div>
             <!-- Form  -->
-            <div class="col-lg-6 col-sm-12 text-align-justify mx-auto">
+            <div class="col-lg-6 col-sm-12 text-align-justify mx-auto ">
                         <!-- Company Name  -->
                     <div class="form-group ">
                         <input type="text" required="required" v-model="formData.name" />

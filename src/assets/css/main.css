@@ -9,9 +9,9 @@
 /*Overpass*/
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap");
 /* Outfit font  */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
 /* Spline Sans font  */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Spline+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Spline+Sans:wght@300&display=swap");
 
 :root {
   --bgcolorone: #00173b;
@@ -31,28 +31,43 @@
   --lato: "Lato", sans-serif;
 }
 
+.wholeContainer {
+  width: 90%;
+}
+
 .quicksans {
-  font-family: "Quicksand", sans-serif, 'Outfit' ;
+  font-family: "Quicksand", sans-serif, "Outfit";
 }
 
 .navs {
-  background: linear-gradient(360deg, rgba(255,255,255,1) 0%, 
-  rgba(88,227,255,1) 100%);;
-  height: 110px;
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(88, 227, 255, 1) 100%
+  );
+  /* height: 110px; */
 }
 
-.navbarTitle{
+.navbarTitle {
   font-size: 1.3rem;
   /* margin-left: 1rem; */
 }
 
-.aboutusContainer{
+@media (max-width: 900px) {
+  .navbarTitle {
+    font-size: 1rem;
+    /* margin-left: 1rem; */
+  }
+}
+
+.aboutusContainer {
   margin: 4rem 1rem;
 }
 
 /* Start Hero Banner Section */
 .sectionTitle {
-  margin: 2rem 0rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   color: var(--groupheader);
   font-family: var(--lato);
   font-size: 36px;
@@ -107,6 +122,7 @@
   }
 
   .normalText {
+    color: #3c4650;
     font-size: 15px;
   }
 
@@ -126,7 +142,7 @@
 
 .copyright {
   color: #000;
-  font-family: "Quicksand",'Outline',"Roboto";
+  font-family: "Quicksand", "Outline", "Roboto";
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -187,10 +203,11 @@
 
   .treeContainer {
     width: 800px;
+    /* background-color: blue; */
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .middles {
     display: none;
   }
@@ -200,35 +217,36 @@
   }
 
   .treeContainer {
-    width: 350px;
+    width: 300px;
+    /* background-color: #007fff; */
   }
 
   .boxs {
-    width: 100px;
-    height: 250px;
+    width: 90px;
+    height: 355px;
     border: 3px dotted black;
     border-radius: 0 10px 10px 0;
     position: absolute;
-    left: 220px;
-    top: 50px;
+    left: 200px;
+    top: 55px;
     border-left: none;
   }
 
   .boxs:nth-child(1) {
-    top: 541px;
+    top: 760px;
   }
 
   .boxs:nth-child(2) {
-    top: 296px;
-    left: 30px;
+    top: 408px;
+    left: 8px;
     border-left: 3px dotted black;
     border-right: none;
     border-radius: 10px 0 0 10px;
   }
 
   .boxs:nth-child(3) {
-    top: 784px;
-    left: 30px;
+    top: 1113px;
+    left: 8px;
     border-left: 3px dotted black;
     border-right: none;
     border-radius: 10px 0 0 10px;
@@ -243,7 +261,7 @@
     border-right: 8px solid #000;
     border-left: 0;
     position: absolute;
-    top: 239px;
+    top: 345px;
     left: -2px;
   }
 
@@ -256,8 +274,8 @@
     border-left: 8px solid #000;
     border-right: 0;
     position: absolute;
-    top: 239px;
-    left: 90px;
+    top: 345px;
+    left: 85px;
   }
 }
 
@@ -265,34 +283,28 @@
 
 /* Start Create Solution with Us Section  */
 
-.submitBtn{
+.submitBtn {
   padding: 5px 80px !important;
-  margin:auto !important;
+  margin: auto !important;
   background: var(--linear1);
 
-  font-family: 'Outfit';
+  font-family: "Outfit";
   font-size: 18px;
   color: #fff;
-
-
 }
 
 /* End Create Solution with Us Section  */
-
 
 /* Start Contact Us section  */
 
 /* End Contact Us section  */
 
-
-
-.callToActionBtn{
+.callToActionBtn {
   font-size: 1.2rem;
   font-weight: bold;
-  font-family: 'Outfit';
+  font-family: "Outfit";
 
   margin-bottom: 1rem;
-
 }
 
 .contactus-btn {
@@ -335,27 +347,30 @@
 
 /* :start footer section css */
 .footers {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
-rgba(88,227,255,1) 100%);
-color: #000;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(88, 227, 255, 1) 100%
+  );
+  color: #000;
 }
 
 .footertitle {
-  font-family: 'Outline',Roboto;
+  font-family: "Outline", Roboto;
   color: var(--textlight);
   font-size: 23px;
 }
 
-.footerAboutus{
+.footerAboutus {
   color: var(--textlight);
-  font-family: 'Outline';
+  font-family: "Outline";
   font-size: 24px;
   margin-left: 30px;
 }
 
 .footerText {
   font-size: 16px;
-  color: var(--textlight);
+  /* color: var(--textlight); */
   padding: 0;
 
   display: block;
@@ -470,7 +485,7 @@ color: #000;
   font-weight: 600;
 }
 
-.radioLabels{
+.radioLabels {
   color: #000;
 }
 

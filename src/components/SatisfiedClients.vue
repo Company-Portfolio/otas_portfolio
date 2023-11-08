@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid clients p-5">
-      <div class="row clients-header text-start">
+  <div class="container-fluid clients py-5">
+      <div class="row">
           <div class="col-12">
             <h2 class="mb-3"><span class="sectionTitle ">Our Satisfied</span> <span class="lightblues">Clients</span></h2>
             <p class="normalText">We cooperate with our clients throughout the whole project building process and we negotiate to fit with our client's ratification. Vestibulum auctor ornare leo, non suscipit magna</p>
@@ -8,8 +8,8 @@
       </div>
 
 
-      <div class="clients-logos mt-3">
-          <div class="d-flex justify-content-between">
+      <div class="clients-logos mt-3 row">
+          <div class="d-flex justify-content-between logoContainer">
               <img src="../assets/logos/Kia-logo.png" width="80px" height="50px" alt="logo1">
               <img src="../assets/logos/Samsung.png" width="80px" height="50px" alt="logo2">
               <img src="../assets/logos/Vodafone_Logo.png" width="80px" height="50px" alt="logo3">
@@ -33,6 +33,7 @@ export default {
     /* font-weight: 500;
     font-family: "Lato", sans-serif; */
     font-size: 16px;
+    overflow: hidden;
 
     padding: 0;
     margin: 0;
@@ -43,12 +44,8 @@ export default {
   height: 200px;
 }
 
-/* .button{
-    background-color: #000;
-    color: #fff;
-    border: none;
-    font-size: 15px;
+.logoContainer{
+  overflow: hidden;
+}
 
-    padding: 5px 20px; 
-} */
 </style>

@@ -1,16 +1,16 @@
 <template>
     <div class="container-fluid service">
-        <div class="row service-header text-start">
+        <div class="row sectionTitle text-start">
             <div class="col-12">
                 <h1 class="sectionTitle "><span class="blues">Services</span><span class="sectionTitle"> We Offer</span></h1>
                 <p class="normalText">We cooperate with our clients throughout the whole project building process and we negotiate to fit with our client's ratification. Vestibulum auctor ornare leo, non suscipit magna</p>
             </div>
         </div>
         
-        <div class="row service-body p-5">
+        <div class="row service-body d-flex justify-content-center">
             
-           <div class="mx-auto col-sm-12 col-md-6 col-lg-4">
-                <div class="cards">
+           <div class="col-sm-12 col-md-6 col-lg-4 cardContainer">
+                <div class="cards bg-warning">
                     <div class="iconBox">
                         <!-- <img src="../assets/imgs/consulting.jpg" class="service-img rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
                     </div>
@@ -22,7 +22,7 @@
                 
            </div>
            
-            <div class="mx-auto col-sm-12 col-md-6 col-lg-4">
+            <div class="mx-auto col-sm-12 col-md-6 col-lg-4 my-2 my-md-0 cardContainer">
                 <div class="cards">
                     <div class="iconBox">
                         <!-- <img src="../assets/imgs/app-dev.png" class="rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
@@ -35,7 +35,7 @@
                 
             </div>
             
-            <div class="mx-auto col-sm-12 col-md-6 col-lg-4">
+            <div class="mx-auto col-sm-12 col-md-6 col-lg-4 cardContainer">
                 <div class="cards">
                     <div class="iconBox">
                         <!-- <img src="../assets/imgs/web-dev.jpg" class="rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
@@ -68,13 +68,9 @@ export default {
 </script>
 
 <style>
-.service{
-    padding: 0;
-    margin: 0;
-}
-
-.service-body{
-    /* margin: auto; */
+.cardContainer{
+  display: flex;
+  justify-content: center;
 }
 
 .font_color{

@@ -15,7 +15,7 @@
             data-bs-toggle="collapse"
             data-bs-target="#navbarcollapse"
           >
-              <img src="./assets/photo/ic_round-menu-open.png" alt="navIcon" width="70" height="70">
+              <img src="./assets/photo/ic_round-menu-open.png" alt="navIcon" width="40" height="40">
            
       </button>
 

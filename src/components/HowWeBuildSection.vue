@@ -158,6 +158,7 @@
           <div class="boxs">
             <div class="triangle"></div>
           </div>
+          
             <div class="groupContainers col-8 mx-auto">
                 <div class="imgcontainers">
                   <img src="../assets/photo/gather.png" alt="gatherInformation" width="80" height="80" class="">
@@ -278,7 +279,7 @@ export default {
 
 .middles .arrow:nth-child(1){
   width: 310px;
-  top: 505px;
+  top: 630px;
   left: 45px;
 }
 
@@ -309,13 +310,13 @@ export default {
 .ones{
   width: 300px;
   left: 250px;
-  top: 280px;
+  top: 343px;
 }
 
 .twos{
-  width: 100px;
+  width: 110px;
   left: 645px;
-  top: 280px;
+  top: 343px;
 }
 
 .rows{
@@ -331,26 +332,26 @@ export default {
   height: 3px;
   position: absolute;
   left: 45px;
-  top: 280px;
+  top: 343px;
 }
 
 
 .lines{
-  width: 235px;
+  width: 295px;
   height: 3px;
   transform: rotate(90deg);
   position: absolute;
-  top: 167px;
-  left: 635px;
+  top: 193px;
+  left: 610px;
 }
 
 .liness{
-  width: 220px;
+  width: 295px;
   height: 3px;
   transform: rotate(90deg);
   position: absolute;
-  top: 390px;
-  left: -65px;
+  top: 488px;
+  left: -103px;
 }
 
 
