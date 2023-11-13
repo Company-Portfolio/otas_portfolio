@@ -1,8 +1,11 @@
 <template>
-  <Whatis></Whatis>
-  <OurMission></OurMission>
-  <ContactUs></ContactUs>
+  <div class="mx-auto wholeContainer">
+    <Whatis></Whatis>
+    <OurMission></OurMission>
+    <ContactUs></ContactUs>
+  </div>
   <FooterSection></FooterSection>
+ 
   
 </template>
 

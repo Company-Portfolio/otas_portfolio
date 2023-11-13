@@ -5,8 +5,8 @@
     <div class="container-fluid">
       <router-link to="/" class="navbar-brand logoLin px-3">
         <img src="./assets/OTASLogoblack.png" 
-          width="60"
-          height="60"
+          width="80"
+          height="80"
           alt="logo">
       </router-link>
 
@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarcollapse">
         <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link to="/" class="mx-2 nav-link text-dark navbarTitle">Home</router-link>
+              <router-link to="/" class="mx-2 nav-link navbarTitle">Home</router-link>
             </li>
             <!-- <li class="mav-item">
               <router-link to="/feeconsulting" class="mx-2 nav-link text-dark navbarTitle">Freeconsulting</router-link>
             </li> -->
-            <li class="mav-item">
-              <router-link to="/aboutus" class="mx-2 nav-link text-dark navbarTitle">Aboutus</router-link>
+            <li class="nav-item">
+              <router-link to="/aboutus" class="mx-2 nav-link navbarTitle">Aboutus</router-link>
             </li> 
-            <li class="mav-item">
-              <router-link to="/services" class="mx-2 me-4 nav-link text-dark navbarTitle">Service</router-link>
+            <li class="nav-item">
+              <router-link to="/services" class="mx-2 me-4 nav-link navbarTitle">Service</router-link>
             </li> 
         </ul>
       </div>
@@ -72,25 +72,6 @@ body {
 
 .navbar-toggler:focus {
   box-shadow: none;
-}
-
-.nav-link {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  /* color: var(--textFixed-color); */
-  padding:20px 0;
-  /* background: #141414; */
-}
-
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus {
-  color: #000;
-  transition: 0.5s;
 }
 
 </style>

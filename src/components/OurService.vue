@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid service">
+    <div class="container-fluid pb-5">
         <div class="row sectionTitle text-start">
             <div class="col-12">
                 <h1 class="sectionTitle "><span class="blues">Services</span><span class="sectionTitle"> We Offer</span></h1>
@@ -7,52 +7,53 @@
             </div>
         </div>
         
-        <div class="row service-body d-flex justify-content-center">
+        <div class="row service-body">
             
-           <div class="col-sm-12 col-md-6 col-lg-4 cardContainer">
-                <div class="cards bg-warning">
-                    <div class="iconBox">
-                        <!-- <img src="../assets/imgs/consulting.jpg" class="service-img rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
+           <div class="col-12 col-lg-4 mb-sm-0 mb-md-4 mb-lg-0">
+                <div class="cards text-center">
+                    <div class="">
+                        <font-awesome-icon icon="fa-solid fa-display" bounce class="icon"/>
                     </div>
                     <div class="card-body ">
-                        <h4 class="card-title ">Free Consulting</h4>
+                        <h4 class="card-title">Web Developement</h4>
                         <p class="card-text">Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images.</p>
                     </div>
                 </div>
                 
            </div>
            
-            <div class="mx-auto col-sm-12 col-md-6 col-lg-4 my-2 my-md-0 cardContainer">
-                <div class="cards">
-                    <div class="iconBox">
-                        <!-- <img src="../assets/imgs/app-dev.png" class="rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
+           <div class="col-sm-12 col-md-6 col-lg-4 my-4 my-md-0">
+                <div class="cards text-center">
+                    <div class="">
+                        <font-awesome-icon icon="fa-solid fa-mobile-screen-button" flip class="icon"/>
                     </div>
                     <div class="card-body ">
-                        <h4 class="card-title ">App Development</h4>
-                        <p class="card-text">Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images..</p>
-                    </div>
-                </div>
-                
-            </div>
-            
-            <div class="mx-auto col-sm-12 col-md-6 col-lg-4 cardContainer">
-                <div class="cards">
-                    <div class="iconBox">
-                        <!-- <img src="../assets/imgs/web-dev.jpg" class="rounded" style="width: 100%; height: 200px;" alt="web dev"> -->
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title ">Web Development</h4>
+                        <h4 class="card-title">App Developement</h4>
                         <p class="card-text">Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images.</p>
                     </div>
                 </div>
-            </div>
+                
+           </div>
+            
+           <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="cards text-center">
+                    <div class="">
+                        <font-awesome-icon icon="fa-solid fa-people-group" beat class="icon" />
+                    </div>
+                    <div class="card-body ">
+                        <h4 class="card-title">Free Consulting</h4>
+                        <p class="card-text">Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images.</p>
+                    </div>
+                </div>
+                
+           </div>
         
         </div>
   </div>
 </template>
 
 <script>
-    import { ref } from 'vue';
+import { ref } from 'vue';
 
 export default {
     setup(){
@@ -79,19 +80,16 @@ export default {
 }
 
 .cards{
-    width: 300px;
-    height: 450px;
-    background: var(--linear1);
-    padding: 1.5rem;
-    /* margin-top: 3rem; */
-    /* margin-bottom: 1rem; */
+    /* background: var(--linear1); */
+    padding: 40px 20px;
+    box-shadow: 2px 2px 2px 2px rgb(190, 188, 188);
     border-radius: 20px;
 }
 
 .card-title{
     font-family: 'Spline Sans';
-    font-weight: 500;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 24px;
     margin-top: 1rem;
     text-align: center;
 }
@@ -100,18 +98,18 @@ export default {
     color: #3c4650;
     margin-top: 1rem;
 
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Outfit";
     word-spacing: 0.05em;
 }
 
-.iconBox{
-    /* padding-top: 300px; */
+
+.icon{
     margin: auto;
     width: 220px;
     height: 150px;
-    background-color: #D9D9D9;
-    border-radius: 20px;
+    color:#007FFF;
+    opacity: 50%;
 }
 
 .card-box{

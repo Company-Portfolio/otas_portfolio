@@ -50,7 +50,14 @@
 
 .navbarTitle {
   font-size: 1.3rem;
+  font-weight: 700;
+  color: #000;
   /* margin-left: 1rem; */
+}
+
+.navbarTitle:hover {
+  color: var(--lightblue);
+  transition: 0.5s;
 }
 
 @media (max-width: 900px) {
@@ -112,7 +119,54 @@
   box-shadow: none;
   border: none;
   border-radius: 30px;
+
+  position: relative;
+
+  /* overflow: hidden; */
+
+  z-index: 100;
   /* padding: 10px; */
+}
+
+.createbtn:hover {
+  background: var(--bgcolortrwo);
+  color: transparent;
+}
+
+.createbtn:hover::before {
+  content: "Contact Us";
+  width: 150px;
+  height: 100px;
+  background: var(--linear1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  position: absolute;
+  top: 25%;
+  left: 5%;
+
+  z-index: 0;
+}
+
+.createbtn:active {
+  background: #fff;
+  color: transparent;
+  border: 1px solid var(--bgcolortrwo);
+}
+
+.createbtn:active:before {
+  content: "Contact Us";
+  width: 150px;
+  height: 100px;
+  background: var(--linear1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  position: absolute;
+  top: 25%;
+  left: 5%;
+
+  z-index: 0;
 }
 
 @media (max-width: 770px) {
@@ -283,45 +337,11 @@
 
 /* Start Create Solution with Us Section  */
 
-.submitBtn {
-  padding: 5px 80px !important;
-  margin: auto !important;
-  background: var(--linear1);
-
-  font-family: "Outfit";
-  font-size: 18px;
-  color: #fff;
-}
-
 /* End Create Solution with Us Section  */
 
 /* Start Contact Us section  */
 
 /* End Contact Us section  */
-
-.callToActionBtn {
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-family: "Outfit";
-
-  margin-bottom: 1rem;
-}
-
-.contactus-btn {
-  background-color: rgb(75, 184, 235);
-  color: #093773;
-  font-weight: bold;
-  font-size: 18px;
-
-  width: 250px;
-  height: 50px;
-
-  border-style: none;
-  border-radius: 30px;
-
-  justify-content: center;
-  align-items: center;
-}
 
 .textcolor {
   color: skyblue;
@@ -346,6 +366,19 @@
 }
 
 /* :start footer section css */
+.phoneBtn {
+  border-radius: 25px !important;
+  /* width: 200px; */
+  /* height: 50px; */
+  background: var(--bgcolortrwo);
+  color: #fff;
+}
+
+.phoneBtn:hover {
+  background: var(--linear1);
+  color: #fff;
+}
+
 .footers {
   background: linear-gradient(
     180deg,
@@ -386,6 +419,8 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+/* end Footer section */
 
 .frees {
   background-color: var(--bgcolortrwo);

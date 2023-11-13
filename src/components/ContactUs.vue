@@ -14,12 +14,12 @@
                 <div class="mt-4">
                     <div class="mb-4">
                         <h6 class="callToActionBtn ">Call Us</h6>
-                        <button class="btn btn-rounded btn-primary phoneBtn">09951207795</button>
+                        <button class="btn btn-rounded phoneBtn">09951207795</button>
                     </div>                 
                     <div>
                         <h6 class="callToActionBtn ">Follow Us For More</h6>
                         <div>
-                            <img src="../assets/photo/linkedin.png" class="footerlogo" alt="facebook" >
+                            <img src="../assets/photo/linkedin.png" alt="facebook" class="footerlogo" >
                             <img src="../assets/photo/github.png" alt="linkedin" class="footerlogo mx-1 mx-md-3">
                             <img src="../assets/photo/facebook.png" alt="github" class="footerlogo">
                         </div>
@@ -84,10 +84,6 @@
 </script>
 
 <style>
-
-.phoneBtn, .submitBtn{
-  border-radius: 25px !important;
-}
 
 /* Style for the form group container */
 .form-group {
@@ -164,13 +160,53 @@ justify-content: center;
 .sendInquory{
 color: #fff;
 font-family: 'Outline';
-font-weight: 400;
+font-weight:700;
 font-size: 20px;
 width: 300px;
 border: none;
 border-radius: 20px;
 padding: 10px;
 background: var(--linear1);
+
+position: relative;
+}
+
+.sendInquory:hover {
+  background: var(--bgcolortrwo);
+  color: transparent;
+}
+
+.sendInquory:hover::before {
+  content: "Send Your Form";
+  width: 300px;
+  /* height: 50px; */
+  background: var(--linear1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  position: absolute;
+  /* top: 20% */
+  left: 0%;
+
+  z-index: 0;
+}
+
+.sendInquory:active {
+  background: #fff;
+  color: transparent;
+  border: 1px solid var(--bgcolortrwo);
+}
+
+.sendInquory:active:before {
+  content: "Send Your Form";
+  width: 300px;
+  background: var(--linear1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  position: absolute;
+
+  z-index: 0;
 }
 
 
