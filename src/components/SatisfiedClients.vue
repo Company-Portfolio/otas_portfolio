@@ -2,7 +2,7 @@
   <div class="container-fluid clients py-5">
       <div class="row">
           <div class="col-12">
-            <h2 class="mb-3"><span class="sectionTitle ">Our Satisfied</span> <span class="lightblues">Clients</span></h2>
+            <h2 class="mb-3"><span class="sectionTitle ">Our Satisfied <span class="blues">Clients</span> </span> </h2>
             <p class="normalText">We cooperate with our clients throughout the whole project building process and we negotiate to fit with our client's ratification. Vestibulum auctor ornare leo, non suscipit magna</p>
           </div>
       </div>
