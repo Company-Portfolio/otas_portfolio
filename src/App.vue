@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarcollapse">
         <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link to="/" class="mx-2 nav-link navbarTitle">Home</router-link>
+              <router-link to="/" class="mx-2 nav-link navbarTitle text-black">Home</router-link>
             </li>
             <!-- <li class="mav-item">
               <router-link to="/feeconsulting" class="mx-2 nav-link text-dark navbarTitle">Freeconsulting</router-link>
             </li> -->
             <li class="nav-item">
-              <router-link to="/aboutus" class="mx-2 nav-link navbarTitle">Aboutus</router-link>
+              <router-link to="/aboutus" class="mx-2 nav-link navbarTitle text-black">Aboutus</router-link>
             </li> 
             <li class="nav-item">
-              <router-link to="/services" class="mx-2 me-4 nav-link navbarTitle">Service</router-link>
+              <router-link to="/services" class="mx-2 me-4 nav-link navbarTitle text-black">Service</router-link>
             </li> 
         </ul>
       </div>

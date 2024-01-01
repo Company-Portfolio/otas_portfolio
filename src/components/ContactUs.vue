@@ -14,14 +14,22 @@
                 <div class="mt-4">
                     <div class="mb-4">
                         <h6 class="callToActionBtn ">Call Us</h6>
-                        <button class="btn btn-rounded phoneBtn">09951207795</button>
+                        <a href="tel:09754007485">
+                            <button class="btn btn-rounded phoneBtn">09754007485</button>
+                        </a>
+                       
                     </div>                 
                     <div>
                         <h6 class="callToActionBtn ">Follow Us For More</h6>
                         <div>
-                            <img src="../assets/photo/linkedin.png" alt="facebook" class="footerlogo" >
-                            <img src="../assets/photo/github.png" alt="linkedin" class="footerlogo mx-1 mx-md-3">
-                            <img src="../assets/photo/facebook.png" alt="github" class="footerlogo">
+                            <a href="https://www.facebook.com/otastechsolution">
+                                <img src="../assets/photo/facebook.png" alt="facebook" class="footerlogo" >
+                            </a>
+                            <a href="https://www.linkedin.com/company/otas-tech-solution/">
+                                <img src="../assets/photo/linkedin.png" alt="linkedin" class="footerlogo mx-1 mx-md-3">
+                            </a>
+                           
+                            <!-- <img src="../assets/photo/facebook.png" alt="github" class="footerlogo"> -->
                         </div>
                     </div>   
                 </div>

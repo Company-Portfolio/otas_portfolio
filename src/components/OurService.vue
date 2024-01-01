@@ -12,7 +12,7 @@
            <div class="col-12 col-lg-4 mb-sm-0 mb-md-4 mb-lg-0">
                 <div class="cards text-center">
                     <div class="">
-                        <font-awesome-icon icon="fa-solid fa-display" bounce class="icon"/>
+                        <font-awesome-icon icon="fa-solid fa-display" bounce class="icon"  style="--fa-animation-duration: 5s;"/>
                     </div>
                     <div class="card-body ">
                         <h4 class="card-title">Web Developement</h4>
@@ -25,7 +25,7 @@
            <div class="col-sm-12 col-md-6 col-lg-4 my-4 my-md-0">
                 <div class="cards text-center">
                     <div class="">
-                        <font-awesome-icon icon="fa-solid fa-mobile-screen-button" flip class="icon"/>
+                        <font-awesome-icon icon="fa-solid fa-mobile-screen-button" flip class="icon" style="--fa-animation-duration: 3s;"/>
                     </div>
                     <div class="card-body ">
                         <h4 class="card-title">App Developement</h4>
@@ -38,7 +38,7 @@
            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="cards text-center">
                     <div class="">
-                        <font-awesome-icon icon="fa-solid fa-people-group" beat class="icon" />
+                        <font-awesome-icon icon="fa-solid fa-people-group" beat class="icon" style="--fa-animation-duration: 3s;" />
                     </div>
                     <div class="card-body ">
                         <h4 class="card-title">Free Consulting</h4>

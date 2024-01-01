@@ -45,7 +45,6 @@
     rgba(255, 255, 255, 1) 0%,
     rgba(88, 227, 255, 1) 100%
   );
-  /* height: 110px; */
 }
 
 .navbarTitle {
@@ -56,7 +55,7 @@
 }
 
 .navbarTitle:hover {
-  color: var(--lightblue);
+  color: var(--lightblue) !important;
   transition: 0.5s;
 }
 
@@ -84,7 +83,8 @@
   letter-spacing: 0.05em;
 }
 
-.blues {
+.blues,
+.lightblues {
   background: var(--linear1);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -106,7 +106,7 @@
 }
 
 .createbtn {
-  margin: 2rem 0rem;
+  /* margin: 2rem 0rem; */
   padding: 1rem 2rem;
   background: var(--linear1);
 
@@ -183,16 +183,16 @@
   .createbtn {
     font-size: 15px;
   }
+
+  .createbtn:hover::before {
+    top: 30%;
+    left: -4%;
+  }
 }
 
 /* End Hero Banner Section */
 
 /* Start How We Build Section */
-.lightblues {
-  color: var(--lightblue);
-  font-size: 36px;
-  font-weight: bold;
-}
 
 .copyright {
   color: #000;
@@ -225,7 +225,7 @@
 }
 
 .grouptext {
-  text-align: justify;
+  text-align: left;
   font-size: 15px;
 }
 
@@ -370,7 +370,7 @@
   border-radius: 25px !important;
   /* width: 200px; */
   /* height: 50px; */
-  background: var(--bgcolortrwo);
+  background: var(--lightblue);
   color: #fff;
 }
 

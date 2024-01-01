@@ -3,11 +3,11 @@
     <div class="container-fluid">
        <div class="row">
         <div class="col-12 col-md-6">
-          <h1 class="sectionTitle mt-3">We Create <span class="blues">Digital Product</span> For Your <span class="blues">Bussiness</span></h1>
+          <h1 class="sectionTitle mt-5 mt-md-3">We Create <span class="blues">Digital Product</span> For Your <span class="blues">Bussiness</span></h1>
 
-          <p class="normalText pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, animi quo ullam molestiae laboriosam accusantium harum sint ea excepturi. Dolor, maxime ipsa tempore rerum obcaecati consectetur veritatis. Explicabo, in beatae!</p>
+          <p class="normalText pt-2 d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, animi quo ullam molestiae laboriosam accusantium harum sint ea excepturi. Dolor, maxime ipsa tempore rerum obcaecati consectetur veritatis. Explicabo, in beatae!</p>
 
-          <button class="createbtn">Contact Us</button>
+          <button class="createbtn my-0 my-md-3">Contact Us</button>
         </div>
 
         <div class="col-12 col-md-6 d-none d-md-block">
